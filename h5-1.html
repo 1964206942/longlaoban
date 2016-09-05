@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+</style>
+
+<body>
+    <headder>
+        <h1>header</h1>
+    </headder>
+    <footer>
+        <h1>footer</h1>
+    </footer>
+    <script>
+        var designWideh = 320;
+        var ratio = document.documentElement.clientWidth / designWideh;
+
+        var html = document.documentElement;
+        html.style.fontSize = ratio * 100 + "px";
+    </script>
+</body>
+
+</html>
